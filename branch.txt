@@ -1,1 +1,17 @@
 branch 操作
+1. 创建分支
+    git branch <new-branch-name> //本地
+    
+    git push origin <new-branch-name> //发布到github (远程)
+
+2.  切换分支
+    git checkout <branch-name>
+
+3.  删除分支
+    git branch -d <本地分支>
+
+    git push origin:<远程分支> (删除远程":")
+
+4. 修改提交
+
+    git push origin <branch-nam>  //提交到指定分支
