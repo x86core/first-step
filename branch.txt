@@ -1,0 +1,8 @@
+1. 查看分支
+    git branch -r
+2. 创建分支
+    git branch <new-branch-name>  //本地
+    git push origin <new-branch-name> //发布到github(远程)
+3. 切换分支
+    git checkout <branch-name>
+
