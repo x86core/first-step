@@ -1,1 +1,21 @@
 GITHUB 使用步骤：
+    1.本地配置
+    vim .git/config
+    [remote "origin"]
+        url = https://github.com/devlop/dev.git
+    修改为：
+        url = https://user@github.com/devlop/dev.git
+    
+    2.提交
+        修改前进行pull操作，保证和远程库一致。
+        
+        添加文件： git add . (当前目录，或是指定文件)
+        提交(本地库): git commit -m "message to descript"
+
+        git push origin master 提交到远程master分支
+
+    3. 状态查看
+        git status
+
+    4. 对比
+        git diff
