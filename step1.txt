@@ -38,6 +38,7 @@
 
     7.撤消
     git checkout file_name //撤销没有staged的改动
+    git reset HEAD file //把暂存区的修改撤销，放回工作区
 
     git reset --hard HEAD //撤消所有没有commit的改动，包括stage 和没有stage的
     同：git checkout HEAD file_name
