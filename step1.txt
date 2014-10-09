@@ -36,3 +36,20 @@
 
     git log branch --not master 查看在branch上的，但不在master上的记录
 
+
+    8. 修改最后一个改动
+    git commit -amend
+
+    9. 详细对比
+
+        git diff --staged 或 git diff --cached
+        //显示staged的(add 的)
+
+        git diff commit1 commit2
+
+    10. 
+        git blame -C file //文件具体的改动
+        git blame -Ln,m file //文件n,m行间的改动
+        git blame commit1~1 -Ln,m file //查看commit1版本前的改动，追查之前的log
+
+        git blame commit1~1 -Ln,m -- old/file //如果被重命名或是移动过，输入旧的文件名
