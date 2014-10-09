@@ -1,4 +1,4 @@
-GITHUB 使用步骤：
+﻿GITHUB 使用步骤：
     1.本地配置
     vim .git/config
     [remote "origin"]
@@ -19,3 +19,5 @@ GITHUB 使用步骤：
 
     4. 对比
         git diff
+
+	continue
