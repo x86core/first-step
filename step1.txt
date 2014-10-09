@@ -58,3 +58,8 @@
         git blame commit1~1 -Ln,m file //查看commit1版本前的改动，追查之前的log
 
         git blame commit1~1 -Ln,m -- old/file //如果被重命名或是移动过，输入旧的文件名
+
+    11. 删除
+
+    git rm file-name //从库和当前work 目录中删掉
+    git rm --cached file-name
