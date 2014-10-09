@@ -36,6 +36,11 @@
 
     git log branch --not master 查看在branch上的，但不在master上的记录
 
+    7.撤消
+    git checkout file_name //撤销没有staged的改动
+
+    git reset --hard HEAD //撤消所有没有commit的改动，包括stage 和没有stage的
+    同：git checkout HEAD file_name
 
     8. 修改最后一个改动
     git commit -amend
