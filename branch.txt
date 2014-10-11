@@ -17,7 +17,7 @@ branch 操作
     git push origin <branch-name>  //提交到指定分支
 
 5. 重命名分支
-    git brach -m <old-name> <new-name>  // -M则会强行覆盖
+    git branch -m <old-name> <new-name>  // -M则会强行覆盖
 
 
 a. 回退本地版本(代码库覆盖本地工作版本)

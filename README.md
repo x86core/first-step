@@ -1,9 +1,2 @@
-first-step
-==========
-
-use github step by step
-
-
-change by new user
-
-private user config
+###GIT 基础使用
+[基础步骤]()
