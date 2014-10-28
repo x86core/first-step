@@ -12,7 +12,9 @@ BOWER：Web 开发的包管理器，概念上类似 npm，npm 专注于 NodeJs �
 
 ####使用
 - 创建项目
-`yo webapp ` 
+`npm search yeoman-generator` //查看所有可用生成器
+`npm install -g generator-webapp`  //安装生成器
+`yo webapp ` //创建webapp
 
 - 内置Node服务器：
 `grunt server ` //启动, 端口配置gruntfile.js
