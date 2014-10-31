@@ -1,17 +1,17 @@
 ###目录
-- [GIT:基础步骤](work-flow.md)
+- [GIT:基础步骤](git-usage/work-flow.md)
 
-- [GIT:配置及ssh-key](git-config.md)
+- [GIT:配置及ssh-key](git-usage/git-config.md)
 
-- [GIT:基础命令](git-command.txt)
+- [GIT:基础命令](git-usage/git-command.txt)
 
-- [PHP:编写PHP扩展](php-ext.md)
+- [PHP:编写PHP扩展](php/php-ext.md)
 
-- [PHP:httpsqs 消息队列](httpsqs.md)
+- [PHP:httpsqs 消息队列](php/httpsqs.md)
 
-- [PHP: CURL 上传文件](upload.php)
+- [PHP: CURL 上传文件](php/upload.php)
 
-- [msysgit: vim中文乱码](msysgit.md)
+- [msysgit: vim中文乱码](git-usage/msysgit.md)
 
 - [YEOMAN 使用](yeoman.md)
 
