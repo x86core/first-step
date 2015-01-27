@@ -16,3 +16,5 @@
 - [YEOMAN 使用](yeoman.md)
 
 - [CMD字体修改](windows/win7-conf.md)
+
+- [压力测试](project/performance.md)
