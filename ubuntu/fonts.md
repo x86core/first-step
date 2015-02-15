@@ -4,3 +4,9 @@
 
 	bsmi和bkai 是big5编码的宋体和楷体。
 	gkai和gbsn 是分别处理简体字和宋体字。
+
+#latex
+	环境：
+	texlive
+	字体：
+	latex-cjk-all
