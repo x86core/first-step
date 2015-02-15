@@ -20,3 +20,6 @@
 - [压力测试](project/performance.md)
 
 - [GIT 服务器](git-usage/git-server.md)
+
+- [Ubuntu 中文字体] (ubuntu/fonts.md) 
+
