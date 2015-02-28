@@ -1,5 +1,6 @@
 1.  配置
 
+
     set autoindent  ;自动缩进
     set nobackup    ;不备份
     set number      ;显示行号
