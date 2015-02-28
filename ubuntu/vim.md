@@ -1,11 +1,11 @@
 1.  配置
 
-set autoindent  ;自动缩进
-set nobackup    ;不备份
-set number      ;显示行号
-set tabstop=4   ;tab 4字符
-set shiftwidth=4   ;自缩进 4字符 
-set expandtab   ;tab转成空格
+    set autoindent  ;自动缩进
+    set nobackup    ;不备份
+    set number      ;显示行号
+    set tabstop=4   ;tab 4字符
+    set shiftwidth=4   ;自缩进 4字符 
+    set expandtab   ;tab转成空格
 
 2.  技巧
 
