@@ -24,3 +24,5 @@
 - [Ubuntu 中文字体] (ubuntu/fonts.md) 
 
 - [vim 配置及使用](ubuntu/vim.md)
+
+- [PHP: GD error: imagettftext](log/gd.md)
