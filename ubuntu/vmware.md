@@ -2,7 +2,8 @@
 
 ### 安装vmware player 7.1 ###
 
-1. 下载linux版wmware-player 
+1. 下载linux版wmware-player
+
 VMware-Player-7.1.0-2496824.x86_64.bundle
 
 2. 安装
