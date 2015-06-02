@@ -7,7 +7,9 @@
 VMware-Player-7.1.0-2496824.x86_64.bundle
 
 2. 安装
-`sudo sh VMware-Player-7.1.0-2496824.x86_64.bundle`
+```Bash
+sudo sh VMware-Player-7.1.0-2496824.x86_64.bundle
+```
 
 3. vmnet无法安装问题(kernel问题):
 
