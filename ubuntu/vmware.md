@@ -11,8 +11,8 @@ VMware-Player-7.1.0-2496824.x86_64.bundle
 3. vmnet无法安装问题(kernel问题):
 
  补丁：vmnet-3.19.patch
- 
-`cd /usr/lib/vmware/modules/source
+```Bash 
+cd /usr/lib/vmware/modules/source
 
 tar -xf vmnet.tar
 
@@ -22,7 +22,8 @@ tar -cf vmnet.tar vmnet-only      #重新打包
 
 sudo rm -rf vmnet-only
 
-vmware-modconfig --console --install-all    #安装所有模块`
+vmware-modconfig --console --install-all    #安装所有模块
+```
 
 4. 卸载vmware player
 `sudo vmware-installer -u vmware-player`
