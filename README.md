@@ -26,3 +26,5 @@
 - [vim 配置及使用](ubuntu/vim.md)
 
 - [PHP: GD error: imagettftext](log/gd.md)
+
+- [sso: 及OAuth2.0 授权] (log/SSO.md)
