@@ -1,0 +1,17 @@
+There are various platform specific and cross platform GUI frameworks.
+
+Windows
+1. Microsoft Foundation Class (MFC)
+
+2. In case of C++/CLI go for .NET (WinForm)
+
+LINUX
+1. GTK and GTK+
+These are C libraries with C++ wrappers available for them.
+
+Cross Platform
+1. QT Framework
+It is best cross platform framework IMO. It covers GUI, graphics, network, file system etc. QT Creator allows you to build GUI by drag and drop (similar to Visual Studio).
+
+2. WxWidget
+I have never used personally, but reviews are good.

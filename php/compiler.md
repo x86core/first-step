@@ -1,5 +1,5 @@
-./configure --prefix=/opt/lnmp --with-curl --with-gd --with-gettext --with-gmp --enable-hash --with-iconv --enable-intl --enable-json --enable-libxml --enable-mbstring --with-mysql --enable-mysqlnd --enable-opcache --with-openssl --enable-pcntl --enable-pdo --with-pdo-mysql --enable-phar --enable-session --enable-sockets --enable-xml --with-zlib --enable-fpm --with-mcrypt --with-mhash --enable-debug --enable-soap
---enable-opcache
+./configure --prefix=/opt/lnmp/php --with-config-file-path=/opt/lnmp/php/etc  --with-config-file-scan-dir=/opt/lnmp/php/etc/conf.d --with-curl --with-gd --with-gettext --with-gmp --enable-hash --with-iconv --enable-intl --enable-json --enable-libxml --enable-mbstring --with-mysql --enable-mysqlnd --enable-opcache --with-openssl --enable-pcntl --enable-pdo --with-pdo-mysql --enable-phar --enable-session --enable-sockets --enable-xml --with-zlib --enable-fpm --with-mcrypt --with-mhash --enable-debug --enable-soap
+--enable-opcache --with-readline
 
 注： 依赖需要自行下载解
 
