@@ -26,3 +26,11 @@ go
 
 apache kafka
 >>一个开源消息系统项目，由Scala写成。该项目的目标是为处理实时数据提供一个统一、高通量、低等待的平台。
+
+
+
+- xapian + scws 搜索
+
+- sphinx + scws 搜索
+
+- coreseek (sphinx+mmseg) 搜索
