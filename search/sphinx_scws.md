@@ -1,6 +1,6 @@
 ### sphinx + scws (php)
 
-1. sphinx  下载
+* sphinx  下载
 从  [Sphinx 官网](http://sphinxsearch.com/downloads/release/) 下载发行版。
 
 ```
@@ -8,8 +8,8 @@ $ ./configure --prefix=/opt/sphinx --with-mysql LIBS="-liconv" #解决libiconv�
 $ make && make install
 ```
 
-配置 sphinx (配置)[/search/sphinx-config.md]
-2. scws 安装
+配置 sphinx [配置](/search/sphinx-config.md)
+* scws 安装
 从 [SCWS 中文分词](http://www.xunsearch.com/scws/) 下载安装包。
 
 >>> 下载：`scws-1.2.2.tar.bz2`和`scws-dict-chs-utf8.tar.bz2`(XDB词库utf-8)
@@ -19,11 +19,11 @@ $ cd scws-1.2.2
 $ ./configure --prefix=/opt/scws
 $ make && make install
 ```
->>> 添加词库,解压到scws下的etc目录
+ 添加词库,解压到scws下的etc目录
 ``` shell
 $ tar -xvf scws-dict-chs-utf8.tar.bz2 -C /opt/scws/etc
 ```
->>> php扩展scws (php.ini 添加扩展 scws.so)
+ php扩展scws (php.ini 添加扩展 scws.so)
 
 ```
 $ cd scws-1.2.2
@@ -33,7 +33,7 @@ $ ./configure --with-php-config=/usr/bin/php-config --with-scws=/opt/scws
 $ make && make install
 ```
 
-3. 测试SCWS
+* 测试SCWS
 
 ```php
  $dict = "/opt/scws/etc/dict.utf8.xdb";
@@ -69,7 +69,7 @@ $ make && make install
   });
 ```
 
-4. sphinx测试
+* sphinx测试
 
 ```php
   require("sphinxapi.php");
