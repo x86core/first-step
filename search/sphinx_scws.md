@@ -8,7 +8,7 @@ $ ./configure --prefix=/opt/sphinx --with-mysql LIBS="-liconv" #解决libiconv�
 $ make && make install
 ```
 
-配置 sphinx (配置)[/search/sphinx-config.md]
+配置 sphinx [配置](/search/sphinx-config.md)
 * scws 安装
 从 [SCWS 中文分词](http://www.xunsearch.com/scws/) 下载安装包。
 
