@@ -1,2 +1,2 @@
 
-- [sphinx+scws(分词)](/serach/sphinx_scws.md)
+- [sphinx+scws(分词)](/search/sphinx_scws.md)
