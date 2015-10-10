@@ -34,3 +34,12 @@ apache kafka
 - sphinx + scws 搜索
 
 - coreseek (sphinx+mmseg) 搜索
+
+
+- 压力测试
+
+Apache ab，Apache Jmeter,Tcpcopy
+
+- Twemproxy
+
+twemproxy,也叫nutcraker。是一个twtter开源的一个redis和memcache代理服务器。 
