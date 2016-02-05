@@ -1,0 +1,19 @@
+
+
+关于centos 6.3 不自动启动eth0 问题
+1.  ifconfig -a 只能看到lo本地回环网卡
+
+2. chkconfig |grep network
+  查看，345的启动状态，如果没有启动(on)
+  chkconfig --level 345 network on
+  
+  启动network服务
+  
+3. ifup eth0 手动启动eth0网卡进行ip分配
+
+4. /etc/sysconfig/network-scripts/ifcfg-eth0 
+  onboot=yes
+  设置系统启动时自动启用。
+  
+  
+  以上步骤解决问题。
