@@ -1,3 +1,4 @@
+ ```
  48 server {
  49     listen       80;
  50     server_name   uos.fcon.net;
@@ -37,4 +38,4 @@
  84         root $root_path;
  85     }
  86 }
-
+```
