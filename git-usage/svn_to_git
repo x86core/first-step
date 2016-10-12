@@ -1,0 +1,19 @@
+svn 迁移到git
+
+git svn clone -s svn-repository-url
+
+清理：
+
+cp -Rf .git/refs/remotes/tags/* .git/refs/tags/
+
+rm -Rf .git/refs/remotes/tags
+
+cp -Rf .git/refs/remotes/* .git/refs/heads/
+
+rm -Rf .git/refs/remotes
+
+提交到remote:
+
+git remote add origin [git remote]
+
+git push -u origin master
